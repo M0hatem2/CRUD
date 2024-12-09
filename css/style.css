@@ -1,0 +1,139 @@
+* {
+  transition: all 0.3s;
+}
+
+body {
+  background-color: #343a40;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.container-fluid {
+  background-color: #212529;
+}
+
+.crud {
+  background-color: #212529;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-control.is-valid,
+.was-validated .form-control:valid,
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  background-image: none;
+}
+
+.head h2 {
+  font-size: 2rem;
+  color: #ffc107;
+  /* لون بارز */
+}
+
+.head p {
+  color: #e0e0e0;
+  font-size: 1rem;
+}
+
+input {
+  background-color: #1c1f24;
+  color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.inputs input {
+  background-color: #1c1f24;
+  color: #f8f9fa;
+  /* border: 1px solid #6f2cf5; */
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.inputs input:focus {
+  background-color: #000;
+  border-color: #ffc107;
+  box-shadow: 0 0 5px 2px #ffc107;
+}
+
+input:focus {
+  background-color: #000;
+  border-color: #ffc107;
+  box-shadow: 0 0 5px 2px #ffc107;
+}
+
+.inputs input::placeholder {
+  color: #ced4da;
+}
+
+.prices input {
+  flex: 1 1 calc(25% - 10px);
+  /* توزيع العناصر داخل الحاوية */
+  margin-right: 0 !important;
+}
+
+#total {
+  font-size: 1.25rem;
+  color: #ffc107;
+}
+
+button {
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: #6f2cf5;
+  color: #fff;
+  /* transform: scale(1.05); */
+}
+
+.outputs {
+  margin-top: 20px;
+}
+
+/* ====================== */
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.table th {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.table button {
+  transition: all 0.3s ease;
+}
+
+.table button:hover {
+  transform: scale(1.1);
+}
+
+tbody tr:hover {
+  background-color: #495057;
+  cursor: pointer;
+}
+
+.table-responsive {
+  max-height: 400px;
+  overflow-y: auto;
+
+  border: 1px solid #6c757d;
+
+  border-radius: 5px;
+}
+
+.head h2 {
+  text-shadow: 0 0 10px #ffc1074d;
+}
